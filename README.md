@@ -52,10 +52,11 @@ Luego, inicializa tu proyecto Node.js ejecutando:
 
 ###   Instalación de Dependencias
 Vamos a instalar las dependencias necesarias:
-  `npm install openai axios readline`
-     -openai: Cliente para interactuar con la API de OpenAI GPT-3 (documentacion: https://platform.openai.com/docs/api-reference/introduction).
-     -axios: Biblioteca para realizar solicitudes HTTP (documentacion: https://axios-http.com/es/docs/intro).
-     -readline: Módulo de Node.js para leer líneas desde la entrada estándar (documentacion: https://nodejs.org/api/readline.html).
+ `npm install openai axios readline`
+     
+	 -*openai:* Cliente para interactuar con la API de OpenAI GPT-3 (documentacion: https://platform.openai.com/docs/api-reference/introduction).
+     -*axios: *Biblioteca para realizar solicitudes HTTP (documentacion: https://axios-http.com/es/docs/intro).
+     -*readline: *Módulo de Node.js para leer líneas desde la entrada estándar (documentacion: https://nodejs.org/api/readline.html).
 
 
 ------------
