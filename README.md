@@ -1,15 +1,17 @@
- # Chatbot con OpenAI-consola
+# Chatbot con OpenAI-consola
 ### Proyecto
 ###### Tipo de Chatbot: *Un chatbot especializado en temas generales.*
 ###### Interactividad: *Respuestas elaboradas.*
 ###### Modo de Funcionamiento: *GPT se encarga de responder.*
 ###### Plataforma de Implementación: *Script de consola.*
 
+
 ------------
 
 
 ###   Lenguaje de Programación
 Haremos el chatbot en JavaScript, específicamente en Node.js, ya que es adecuado para scripts de consola y también porque es compatible con la interfaz de OpenAI GPT-3.
+
 
 ------------
 
@@ -18,6 +20,7 @@ Haremos el chatbot en JavaScript, específicamente en Node.js, ya que es adecuad
 `Node.js:` Asegúrate de tener Node.js instalado. (puedes descargarlo desde: https://nodejs.org/en).
 `Editor de Código:` Puedes utilizar Visual Studio Code, Sublime Text, Atom o cualquier editor de tu preferencia (en este ejemplo se utilizo Visual Studio Code).
 `Cuenta de OpenAI GPT-3:` Necesitarás una cuenta en OpenAI para obtener las credenciales de la API. Si no tienes una cuenta, puedes registrarte en OpenAI.
+
 
 ------------
 
@@ -28,6 +31,7 @@ Creemos un proyecto simple con la siguiente estructura:
 > ######   - index.js
 > ######   - package.json
 
+
 ------------
 
 
@@ -35,11 +39,13 @@ Creemos un proyecto simple con la siguiente estructura:
 Primero, crea un nuevo directorio para el proyecto y navega a él desde la línea de comandos:
 
 >   mkdir chatbot
+
 >   cd chatbot
 
 Luego, inicializa tu proyecto Node.js ejecutando:
 
   `npm init -y //Esto creará un archivo package.json básico.`
+
 
 ------------
 
@@ -51,11 +57,13 @@ Vamos a instalar las dependencias necesarias:
      -axios: Biblioteca para realizar solicitudes HTTP (documentacion: https://axios-http.com/es/docs/intro).
      -readline: Módulo de Node.js para leer líneas desde la entrada estándar (documentacion: https://nodejs.org/api/readline.html).
 
+
 ------------
 
 
 ###   Obtener la Clave de API de OpenAI
 Asegúrate de reemplazar 'tu_clave_de_api_de_openai' con tu clave de API de OpenAI en el script (https://platform.openai.com/api-keys).
+
 
 ------------
 
@@ -67,9 +75,8 @@ Desde la línea de comandos, ejecuta:
 
 Ahora si, el chatbot estará esperando tus entradas y generará respuestas utilizando OpenAI GPT-3.
 
+
 ------------
-
-
 
 ###   Ejemplo de conversacion:
 
@@ -79,6 +86,7 @@ Algunas personas encuentran significado en relaciones, otras en logros personale
 
 Usuario: Cuéntame un chiste.
 Chatbot: ¡Claro! Aquí tienes uno: ¿Por qué los programadores prefieren el café helado? Porque les gusta su código bien frío.
+
 
 ------------
 
